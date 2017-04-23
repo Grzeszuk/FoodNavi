@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Reflection.Emit;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -129,6 +130,11 @@ namespace FoodNavigator___Controller.Result_Controller
         public void SelectionChanged(int selectedIndex)
         {
             SelectedRestaurant.Reference = _restaurantModels[selectedIndex].place_id;
+        }
+
+        public RestaurantAdapter.Result ZoomTo(int listBoxSelectedIndex)
+        {
+            return _restaurantModels[listBoxSelectedIndex];
         }
     }
 }

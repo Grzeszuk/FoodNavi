@@ -163,5 +163,12 @@ namespace FoodNavigator___View.Result_page
                 hybridMap.Background = (Brush)converter.ConvertFromString("#33FF0000");
             }
         }
+
+        private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var point = _controller.ZoomTo(listBox.SelectedIndex);
+            resultMap.SetPositionByKeywords($"{point.formatted_address}");
+            resultMap.Zoom = 18;
+        }
     }
 }
