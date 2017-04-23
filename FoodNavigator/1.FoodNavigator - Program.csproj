@@ -139,5 +139,8 @@
   <ItemGroup>
     <Resource Include="#15_256x256.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="SplashScreen1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

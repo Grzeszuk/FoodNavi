@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         GlowBrush="{DynamicResource AccentColorBrush}"
         Title="MainWindow" Height="488.298" Width="727.021">
-    
+
 
 
     <Controls:MetroWindow.RightWindowCommands>
@@ -19,6 +19,11 @@
         </Controls:WindowCommands>
     </Controls:MetroWindow.RightWindowCommands>
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/FoodNavigator - View;component/Welcome Page/background.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="100" Margin="609.021,415.123,0,-57.825" VerticalAlignment="Top" Width="100" Source="/FoodNavigator - View;component/Welcome Page/twonoobslogo.png"/>
+        <Image HorizontalAlignment="Left" Height="338.351" Margin="69.293,152.686,0,-33.739" VerticalAlignment="Top" Width="549.245" Source="/FoodNavigator - View;component/Welcome Page/foodnavilogo.png"/>
 
     </Grid>
 </Controls:MetroWindow>

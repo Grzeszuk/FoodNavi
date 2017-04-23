@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -24,6 +25,7 @@ namespace FoodNavigator___View.Main_window
     {
         public MainWindow()
         {
+            System.Threading.Thread.Sleep(3000);
             InitializeComponent();
         }
 

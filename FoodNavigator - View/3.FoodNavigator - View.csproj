@@ -250,5 +250,9 @@
   <ItemGroup>
     <Resource Include="Help Windows\5b00a4e172990f588f8909fe5a9cbe85.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Main Window\splash.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
