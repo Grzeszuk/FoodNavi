@@ -9,7 +9,7 @@
                       GlowBrush="{DynamicResource AccentColorBrush}"
 
         Title="CloudWindow" Height="465.126" Width="403.361">
-    <Grid KeyDown="Grid_KeyDown">
+    <Grid >
         <Grid.Background>
             <ImageBrush ImageSource="/FoodNavigator - View;component/Welcome Page/background.jpg" Stretch="UniformToFill"/>
         </Grid.Background>

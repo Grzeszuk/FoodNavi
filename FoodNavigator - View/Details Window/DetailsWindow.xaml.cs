@@ -101,10 +101,5 @@ namespace FoodNavigator___View.Details_Window
                 System.Diagnostics.Process.Start($"https://www.google.com/search?q={_details.name} {SelectedValues.Location}");
             });
         }
-
-        private void Grid_KeyDown(object sender, KeyEventArgs e)
-        {
-
-        }
     }
 }

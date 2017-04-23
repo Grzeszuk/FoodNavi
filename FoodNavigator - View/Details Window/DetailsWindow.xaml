@@ -10,7 +10,7 @@
                       GlowBrush="{DynamicResource AccentColorBrush}"
 
         Title="DetailsWindow" Height="458.48" Width="498.993">
-    <Grid Background="#FF404040" KeyDown="Grid_KeyDown">
+    <Grid Background="#FF404040">
         <Image x:Name="backgroundPhoto" Source="/FoodNavigator - View;component/Welcome Page/back2.jpg" Stretch="UniformToFill"/>
         <Rectangle Fill="#7F000000" Stroke="Black"/>
         <Label x:Name="restaurantAddress" Content="Label" HorizontalAlignment="Left" Margin="10,82.816,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Cabana" FontSize="48" RenderTransformOrigin="0.17,0.046"/>

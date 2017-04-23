@@ -84,10 +84,5 @@ namespace FoodNavigator___View.Cloud_Load_Window
                 });
             });
         }
-
-        private void Grid_KeyDown(object sender, KeyEventArgs e)
-        {
-
-        }
     }
 }
