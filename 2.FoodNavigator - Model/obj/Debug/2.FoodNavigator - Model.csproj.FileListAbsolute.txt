@@ -1,0 +1,25 @@
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\2.FoodNavigator - Model.dll
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\2.FoodNavigator - Model.pdb
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\obj\Debug\2.FoodNavigator - Model.csprojResolveAssemblyReference.cache
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\obj\Debug\2.FoodNavigator - Model.dll
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\obj\Debug\2.FoodNavigator - Model.pdb
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\MahApps.Metro.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\MaterialDesignColors.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\MahApps.Metro.pdb
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\MahApps.Metro.xml
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\MaterialDesignColors.pdb
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\GMap.NET.Core.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\Reimers.Core.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\Reimers.Google.Map.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\Reimers.Core.xml
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\Reimers.Google.Map.xml
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\2.FoodNavigator - Model.dll.config
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\2.FoodNavigator - Model\bin\Debug\BespokeFusion.dll

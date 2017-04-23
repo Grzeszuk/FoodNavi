@@ -1,0 +1,26 @@
+﻿<controls:MetroWindow x:Class="FoodNavigator___View.Main_Help_Window.MainHelp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodNavigator___View.Main_Help_Window"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="MainHelp" Height="577.311" Width="577.311">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/FoodNavigator - View;component/Search Page/background3.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Rectangle Fill="#4C000000" Stroke="Black"/>
+        <Label Content="Help:&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="72"/>
+        <controls:Glow Height="100" Margin="0,459,0.622,-12.689" VerticalAlignment="Top" Background="#FF2E00FF"/>
+        <Label Content="Login:&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,109.243,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="36" RenderTransformOrigin="0.262,0.29"/>
+        <Label Content="sign up:" HorizontalAlignment="Left" Margin="10,243.228,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="36"/>
+        <Label Content="Password recorvery:&#xA;" HorizontalAlignment="Left" Margin="10,351.44,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="98.712" Width="549.311" FontSize="18"><Run Text="Fill username and password and click login button"/><Run Text="."/><LineBreak/><Run Text="Username must be at least 5 character"/><Run Text="s"/><Run Text=" long and password 8 character"/><Run Text="s"/><Run Text=" long with small and big letters,numbers and special char"/><Run Text="s."/><LineBreak/><Run/><LineBreak/><Run Text=""/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,289.228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="62.212" Width="523.566" FontSize="18"><Run Text="Fill "/><Run Text="all boxes with help of "/><Run Text="the "/><Run Text="hints. All texts should be green"/><LineBreak/><Run Text="at the end.  Photo is optional."/><LineBreak/><Run/><LineBreak/><Run Text=""/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,410.246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="98.712" Width="536.999" FontSize="18"><Run Text="Enter email of your account if there is account with this"/><LineBreak/><Run Text="mail you will be given mail with password."/></TextBlock>
+    </Grid>
+</controls:MetroWindow>
+

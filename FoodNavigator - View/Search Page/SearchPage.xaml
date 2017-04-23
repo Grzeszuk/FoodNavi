@@ -1,0 +1,82 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FoodNavigator___View.Search_page"
+      xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls" x:Class="FoodNavigator___View.Search_page.SearchPage"
+      mc:Ignorable="d"
+      Title="SearchPage">
+    <Grid KeyDown="Grid_KeyDown">
+        <Grid.Background>
+            <ImageBrush ImageSource="background4.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Rectangle Fill="#00000000" Stroke="Black"/>
+        <Custom:Glow Height="137" Margin="0,-1,0,0" VerticalAlignment="Top" GlowBrush="#FF1700FF" RenderTransformOrigin="0.5,0.5" Background="#FF1700FF">
+            <Custom:Glow.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Custom:Glow.RenderTransform>
+        </Custom:Glow>
+        <Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="122.729,2.134,0,0"/>
+        <Label Content="Search options:&#xA;" Foreground="#CCFFFFFF" FontFamily="ONE DAY" FontSize="48" Margin="10,10,0,0" HorizontalAlignment="Left" Width="387.573" Height="87.93" VerticalAlignment="Top"/>
+        <Label Content="1.Food Types:&#xA;" Foreground="White" FontFamily="ONE DAY" FontSize="36" Margin="38.131,131.254,0,0" Height="70.842" VerticalAlignment="Top" HorizontalAlignment="Left" Width="248.163"/>
+        <Label Content="2.Transport Types:&#xA;" Foreground="#F8FFFFFF" FontFamily="ONE DAY" FontSize="36" Margin="38.131,386.105,774.762,0" Height="65.842" VerticalAlignment="Top"/>
+        <Label Content="4.Range options:" Foreground="White" FontFamily="ONE DAY" FontSize="36" Margin="474.246,386.105,360.493,0" Height="63.07" VerticalAlignment="Top"/>
+        <Label Content="5.Additional options:&#xA;" Foreground="#F8FFFFFF" FontFamily="ONE DAY" FontSize="24" Margin="976.738,433.105,-190.049,0" Height="49.037" VerticalAlignment="Top"/>
+        <Label Content="selection summary:&#xA;" Foreground="#F8FFFFFF" FontFamily="ONE DAY" FontSize="36" Margin="976.738,131.254,-173.732,0" Height="55.44" VerticalAlignment="Top"/>
+        <Button x:Name="searchButton" Content="search" Margin="1062.441,308.192,-100.265,0" BorderBrush="White" Background="#0030278D" Foreground="White" FontFamily="ONE DAY" FontSize="20" HorizontalAlignment="Left" Width="199.077" Click="searchButton_Click" Height="54.252" VerticalAlignment="Top"/>
+        <Button x:Name="loadButton" Content="load from cloud" Margin="981.374,508.642,-55.189,0" BorderBrush="White" Background="#000097FF" Foreground="White" FontFamily="ONE DAY" FontSize="14" HorizontalAlignment="Left" Width="235.068" Height="32" VerticalAlignment="Top" Click="loadButton_Click"/>
+        <Button x:Name="saveButton" Content="save to cloud" Margin="981.374,471.642,-55.189,0" BorderBrush="White" Background="#000097FF" Foreground="White" FontFamily="ONE DAY" FontSize="14" HorizontalAlignment="Left" Width="235.068" Height="32" VerticalAlignment="Top" Click="saveButton_Click"/>
+        <Button x:Name="resetButton" Content="reset selection" Margin="981.374,545.642,-55.189,0" BorderBrush="White" Background="#000097FF" Foreground="White" FontFamily="ONE DAY" FontSize="14" HorizontalAlignment="Left" Width="235.068" Height="32" VerticalAlignment="Top" Click="resetButton_Click"/>
+        <Rectangle Fill="White" Height="2" Margin="0,102.93,0,0" Stroke="White" VerticalAlignment="Top"/>
+        <Button x:Name="resetButton_Copy" Content="random values" Margin="981.374,582.642,-55.189,0" BorderBrush="White" Background="#000097FF" Foreground="White" FontFamily="ONE DAY" FontSize="14" HorizontalAlignment="Left" Width="235.068" Click="random" Height="32" VerticalAlignment="Top"/>
+        <ListBox x:Name="foodBox" HorizontalAlignment="Left" Height="201.241" Margin="53.656,180.625,0,0" VerticalAlignment="Top" Width="341.579" RenderTransformOrigin="0.5,0.5" FontFamily="Cabana" SelectionChanged="foodBox_SelectionChanged" Background="#00FF0000">
+            <ListBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.478"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ListBox.RenderTransform>
+        </ListBox>
+        <Custom:FlipView x:Name="transportBox" HorizontalAlignment="Left" Height="205.309" Margin="50.741,439.691,0,0" VerticalAlignment="Top" Width="346.832" Foreground="#00000000" FontFamily="ONE DAY" SelectionChanged="transportBox_SelectionChanged" FontSize="6" RenderTransformOrigin="0.5,0.5"/>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="588.79,477.282,0,0" VerticalAlignment="Top" Width="83.495" Background="#000D2D44" Foreground="White" Maximum="10" SmallChange="1" Value="5" ValueChanged="slider_ValueChanged" RenderTransformOrigin="0.5,0.5" Height="21.583">
+            <Slider.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Slider.RenderTransform>
+        </Slider>
+        <Label x:Name="distanceLabel" Content="distance: 5km" HorizontalAlignment="Left" Margin="544.199,540.892,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="24" Foreground="White"/>
+        <Label x:Name="food" Content="{}{select food type}" HorizontalAlignment="Left" Margin="1078.878,179.596,-109.425,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="20" Foreground="White" Height="38.8"/>
+        <Grid Grid.Column="0" HorizontalAlignment="Left" Height="100" Margin="1035.892,10,-169.139,0" VerticalAlignment="Top" Width="294.5" Background="#00DA7B7B">
+            <Label Content="User:&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="20" Foreground="White" Margin="-24.919,0,0,0"/>
+            <Button x:Name="signOut" Content="sign out" HorizontalAlignment="Center" Margin="-24.919,57.5,253.183,0" VerticalAlignment="Top" Foreground="White" BorderBrush="White" FontFamily="ONE DAY" FontSize="12" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Height="20.5" Width="66.236" Background="#000097FF" Click="signOut_Click"/>
+            <Image x:Name="userPhoto" HorizontalAlignment="Left" Height="75.5" Margin="-117.048,7,0,0" VerticalAlignment="Top" Width="75.5" Source="/FoodNavigator - View;component/Welcome Page/back2.jpg" Stretch="UniformToFill"/>
+            <Label x:Name="usernameLabel" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,27.5,0,0" FontFamily="ONE DAY" FontSize="20" Foreground="White"/>
+        </Grid>
+        <Label Content="3.Your location:&#xA;" Foreground="#F8FFFFFF" FontFamily="ONE DAY" FontSize="36" Margin="474.246,131.254,0,0" Height="64.57" VerticalAlignment="Top" HorizontalAlignment="Left" Width="288.065"/>
+        <TextBox x:Name="CityBox" HorizontalAlignment="Left" Height="40.058" Margin="492.107,219.011,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278.919" BorderBrush="White" SelectionBrush="#FF1700FF" FontSize="24" TextChanged="CityBox_TextChanged" FontFamily="ONE DAY" Background="Transparent"/>
+        <TextBox x:Name="StreetBox" HorizontalAlignment="Left" Height="40.058" Margin="492.107,299.748,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278.919" BorderBrush="White" SelectionBrush="#FF1700FF" FontSize="24" FontFamily="ONE DAY" Background="Transparent"/>
+        <Label Content="City:&#xA;" Foreground="White" FontFamily="ONE DAY" FontSize="22" Margin="492.107,184.84,596.374,0" Height="34.171" VerticalAlignment="Top" RenderTransformOrigin="0.359,0.762"/>
+        <Label Content="Street:&#xA;" Foreground="White" FontFamily="ONE DAY" FontSize="22" Margin="492.107,264.069,0,0" Height="39.752" VerticalAlignment="Top" HorizontalAlignment="Left" Width="219.726"/>
+        <Label Content="I will eat&#xA;" HorizontalAlignment="Left" Margin="976.738,179.596,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="20" Height="38.8" Foreground="#FFACACAC"/>
+        <Label Content="in&#xA;" HorizontalAlignment="Left" Margin="976.738,205.292,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="20" Height="38.8" RenderTransformOrigin="2.995,0.18" Foreground="#FFACACAC"/>
+        <Label x:Name="city" Content="{}{fill in city}" HorizontalAlignment="Left" Margin="1007.398,205.292,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="20" Foreground="White" Height="38.8"/>
+        <Label Content="By" HorizontalAlignment="Left" Margin="976.738,269.392,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="20" Height="38.8" RenderTransformOrigin="0.386,0.21" Foreground="#FFACACAC"/>
+        <Label x:Name="type" Content="{}{select transport type}" HorizontalAlignment="Left" Margin="1007.398,269.392,-100.265,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="20" Foreground="White" Height="38.8"/>
+        <Label x:Name="distance" Content="5KM" HorizontalAlignment="Left" Margin="1103.813,234.092,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="20" Foreground="White" Height="38.8" RenderTransformOrigin="1.713,0.086"/>
+        <Label Content="by radius of:&#xA;" HorizontalAlignment="Left" Margin="976.738,234.092,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="20" Height="38.8" Foreground="#FFACACAC"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="122.729,606.142,0,0" VerticalAlignment="Top" FontFamily="Cabana" FontSize="24" Height="38.8"/>
+        <Custom:Glow Height="100" Margin="0,595,0.253,-50" VerticalAlignment="Top" Foreground="Red" GlowBrush="#FF1700FF"/>
+    </Grid>
+</Page>

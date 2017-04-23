@@ -1,0 +1,41 @@
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\obj\Debug\App.g.cs
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\obj\Debug\FoodNavigator_MarkupCompile.cache
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\FoodNavigator.exe.config
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\FoodNavigator.exe
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\FoodNavigator.pdb
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\FoodNavigator - Controller.dll
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\FoodNavigator - View.dll
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\FoodNavigator - Controller.pdb
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\FoodNavigator - View.pdb
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\obj\Debug\1.FoodNavigator - Program.csprojResolveAssemblyReference.cache
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\obj\Debug\FoodNavigator.Properties.Resources.resources
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\obj\Debug\1.FoodNavigator - Program.csproj.GenerateResource.Cache
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\obj\Debug\FoodNavigator.exe
+c:\users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\obj\Debug\FoodNavigator.pdb
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\MahApps.Metro.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\MaterialDesignColors.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\MahApps.Metro.pdb
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\MahApps.Metro.xml
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\MaterialDesignColors.pdb
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\obj\Debug\FoodNavigator_MarkupCompile.lref
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\obj\Debug\App.baml
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\obj\Debug\FoodNavigator.g.resources
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\2.FoodNavigator - Model.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\2.FoodNavigator - Model.pdb
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\GMap.NET.Core.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\Reimers.Core.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\Reimers.Google.Map.dll
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\Reimers.Core.xml
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\Reimers.Google.Map.xml
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\FoodNavigator - Controller.dll.config
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\FoodNavigator - View.dll.config
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\2.FoodNavigator - Model.dll.config
+C:\Users\brand\documents\visual studio 2017\Projects\FoodNavigator\FoodNavigator\bin\Debug\BespokeFusion.dll

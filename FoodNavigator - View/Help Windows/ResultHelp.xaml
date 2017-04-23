@@ -1,0 +1,25 @@
+﻿<controls:MetroWindow x:Class="FoodNavigator___View.Help_Window.ResultHelp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodNavigator___View.Help_Window"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="ResultHelp" Height="577.311" Width="577.311">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/FoodNavigator - View;component/Search Page/background3.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Rectangle Fill="#4C000000" Stroke="Black"/>
+        <Label Content="Help:&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="72"/>
+        <controls:Glow HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+        <controls:Glow Height="100" Margin="0,459,0.311,-12.689" VerticalAlignment="Top" Background="#FF2E00FF"/>
+        <Label Content="Map:&#xA;" HorizontalAlignment="Left" Margin="10,109.243,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="36" RenderTransformOrigin="0.262,0.29"/>
+        <Label Content="Want details?:" HorizontalAlignment="Left" Margin="10,262.712,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="36"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="10,351.44,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="98.712" Width="549.311" FontSize="18"><Run Text="Click with right mouse button and drag map if you want to move it."/><LineBreak/><Run Text="By buttons under the map you can select map type. Slider on the"/><LineBreak/><Run Text="right can zoom in and zoom out the map."/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,313.712,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="164.815" Width="523.566" FontSize="18"><Run Text="Click two times on restaurant. The new window with details should appear. By buttons on the bottom you can open website of"/><Run Text=" restuarant or open google maps with directions."/></TextBlock>
+
+    </Grid>
+</controls:MetroWindow>

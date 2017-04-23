@@ -1,0 +1,32 @@
+﻿<controls:MetroWindow x:Class="FoodNavigator___View.Cloud_Load_Window.CloudWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodNavigator___View.Cloud_Load_Window"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+                      GlowBrush="{DynamicResource AccentColorBrush}"
+
+        Title="CloudWindow" Height="465.126" Width="403.361">
+    <Grid KeyDown="Grid_KeyDown">
+        <Grid.Background>
+            <ImageBrush ImageSource="/FoodNavigator - View;component/Welcome Page/background.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <controls:Glow Height="100" Margin="-3,0,3.361,0" VerticalAlignment="Top" Foreground="Red" GlowBrush="#FF1700FF" RenderTransformOrigin="0.5,0.5">
+            <controls:Glow.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </controls:Glow.RenderTransform>
+        </controls:Glow>
+        <controls:Glow Height="100" Margin="0,334,0.361,0" VerticalAlignment="Top" Foreground="Red" GlowBrush="#FF1700FF" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="loadButton" Content="Load Selection" HorizontalAlignment="Left" Margin="10,383.004,0,0" VerticalAlignment="Top" Width="175"  Height="44.13" Background="#000097FF" BorderBrush="White" Foreground="White" FontFamily="ONE DAY" FontSize="18" Click="loadButton_Click"/>
+        <Button x:Name="DeleteButton" Content="Delete Selection" HorizontalAlignment="Left" Margin="200.128,383.003,0,0" VerticalAlignment="Top" Width="175"  Height="44.131" Background="#000097FF" BorderBrush="White" Foreground="White" FontFamily="ONE DAY" FontSize="18" Click="DeleteButton_Click"/>
+        <ListBox x:Name="loadBox" HorizontalAlignment="Left" Height="311.669" Margin="10,61,0,0" VerticalAlignment="Top" Width="365.128" Background="Transparent" BorderBrush="Black" Foreground="White" FontFamily="Cabana" FontSize="24"/>
+        <Label Content="Load Selection:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="ONE DAY" FontSize="36" Foreground="White"/>
+    </Grid>
+</controls:MetroWindow>
