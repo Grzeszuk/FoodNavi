@@ -74,7 +74,8 @@ namespace FoodNavigator___Controller.Window_Controller
 
                 case Page.Result:
                     _mainPage.Content = new ResultPage();
-                    _mainPage.Title = "Result";
+                    _mainPage.Title = "FoodNavi - Result";
+                    _mainPage.Name = "Result";
                     _mainPage.ResizeMode = System.Windows.ResizeMode.CanMinimize;
                     _mainPage.WindowState = System.Windows.WindowState.Maximized;
                     break;
