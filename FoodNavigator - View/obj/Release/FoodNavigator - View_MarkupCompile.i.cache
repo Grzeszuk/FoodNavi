@@ -16,5 +16,5 @@ TRACE
 30313195997
 Cloud Load Window\cloudWindow.xaml;Details Window\DetailsWindow.xaml;Help Windows\MainHelp.xaml;Help Windows\ResultHelp.xaml;Help Windows\SearchHelp.xaml;Main Window\MainWindow.xaml;Password Windows\PasswordChange.xaml;Password Windows\PasswordRemember.xaml;Register Window\RegisterWindow.xaml;Result Page\ResultPage.xaml;Search Page\SearchPage.xaml;Settings Window\Settings.xaml;Themes\Generic.xaml;Welcome Page\WelcomePage.xaml;
 
-False
+True
 

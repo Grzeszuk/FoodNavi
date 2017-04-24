@@ -41,8 +41,8 @@
         <TextBlock x:Name="textBlock2_Copy" HorizontalAlignment="Center" Margin="1049.609,179.535,132.492,348.17" TextWrapping="Wrap" VerticalAlignment="Center" Foreground="White" FontFamily="ONE DAY" Height="87.656" Width="338.58" FontSize="20" Grid.Row="1" Background="#008B8B8B"><Run Text="Forgot password?"/><LineBreak/><Run Text="Click button below"/><LineBreak/><Run Text="You are welcome"/><LineBreak/><Run/><LineBreak/></TextBlock>
         <Button x:Name="passwordRecorvery" Content="help me" Margin="1049.609,251.856,0,0" Grid.Row="1" FontFamily="ONE DAY" Background="#00000000" Foreground="White" Height="56.991" VerticalAlignment="Top" HorizontalAlignment="Left" Width="237.927" BorderBrush="White" FontSize="24" Click="passwordRecorvery_Click" FontWeight="Normal"/>
         <Custom:Glow Height="100" Margin="0,366.788,-0.319,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Red" GlowBrush="#FF1700FF"/>
-        <Label Content="Release Canditate 1.7.3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="23.818,408.459,0,0" Grid.Row="1" FontFamily="ONE DAY" FontSize="22" Width="454.339"/>
-        <Label x:Name="connectionLabel" Content="connected to TwoNoobs Azure Cloud™" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="315.993,408.457,0,0" FontFamily="ONE DAY" FontSize="22" Width="553.372" Grid.Row="1"/>
+        <Label Content="Release Canditate 1.7.3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="23.818,408.457,0,0" Grid.Row="1" FontFamily="ONE DAY" FontSize="14" Width="460.339" Height="32.002"/>
+        <Label x:Name="connectionLabel" Content="connected to TwoNoobs Azure Cloud™" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="195.956,408.456,0,0" FontFamily="ONE DAY" FontSize="14" Width="553.372" Grid.Row="1"/>
     </Grid>
 
 </Page>

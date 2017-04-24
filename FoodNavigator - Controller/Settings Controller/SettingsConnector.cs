@@ -20,7 +20,11 @@ namespace FoodNavigator___Controller.Settings_Controller
 
         public static void Picture(string url)
         {
-            ServerConnector.ServerDownloader($"photo/{Uri.EscapeDataString(LoginData.Username)}/{url}");
+            var photourl = url != ""
+                ? Uri.EscapeDataString(url).Replace("%", "^")
+                : "no photo";
+ 
+            ServerConnector.ServerDownloader($"photo/{Uri.EscapeDataString(LoginData.Username)}/{photourl}");
         }
     }
 }

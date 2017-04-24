@@ -69,7 +69,6 @@ namespace FoodNavigator___View.Register_window
                                             $"photo/{Uri.EscapeDataString(usernameBox.Text)}/{photourl}");
                                     }
 
-
                                     if (response.Contains("true"))
                                     {
                                         MessageBox.Show(
